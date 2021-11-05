@@ -1579,6 +1579,7 @@ html body {
     margin-top: 24px;
     background-image: linear-gradient(to right bottom, rgba(16, 16, 16, 0.6), rgba(16, 16, 16, 0.6)), url(/img/background_video.png);
     display: flex;
+    display: none;
     flex-direction: column;
     align-items: center; }
     .container_video .text_information {
@@ -1616,7 +1617,8 @@ html body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    align-items: center; }
+    align-items: center;
+    display: none; }
     .container_khachhang .text_mycustomer {
       position: relative;
       width: 328px;
@@ -1638,7 +1640,8 @@ html body {
     position: relative;
     width: 1440px;
     height: 511px;
-    background: #F3FAFF; }
+    background: #F3FAFF;
+    display: none; }
     .container_nhanxet .content_nhanxet {
       display: flex;
       flex-direction: column;
@@ -1700,7 +1703,8 @@ html body {
     height: 701px;
     background-image: url(/img/background_footer.png);
     background-color: #3956FB;
-    padding: 1px; }
+    padding: 1px;
+    display: none; }
     .container_footer .img_ice_4 {
       position: absolute;
       top: -50px;
