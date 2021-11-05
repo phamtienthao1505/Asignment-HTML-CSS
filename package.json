@@ -1,24 +1,28 @@
 {
-  "name": "Asignment-HTML-CSS",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/phamtienthao1505/Asignment-HTML-CSS.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/phamtienthao1505/Asignment-HTML-CSS/issues"
-  },
-  "homepage": "https://github.com/phamtienthao1505/Asignment-HTML-CSS#readme",
-  "devDependencies": {
-    "node-sass": "^6.0.1"
-  }
+    "name": "Asignment-HTML-CSS",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/phamtienthao1505/Asignment-HTML-CSS.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/phamtienthao1505/Asignment-HTML-CSS/issues"
+    },
+    "homepage": "https: //phamtienthao1505/Asignment-HTML-CSS/",
+
+    "devDependencies": {
+        "node-sass": "^6.0.1"
+    },
+    "dependencies": {
+        "gh-pages": "^3.2.3"
+    }
 }
